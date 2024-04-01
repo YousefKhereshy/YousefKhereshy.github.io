@@ -1,0 +1,156 @@
+.main{
+    background-color: #1E1E1E;
+    margin: 8px;
+}
+
+.logo{
+    color: #900FF5;
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+
+}
+
+
+.circle{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    display: flex;
+    width:1000px;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #900FF5;
+    border-radius: 100%;
+    animation: c1 3.5s infinite;
+}
+.circle1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:800px;
+    height: 800px;
+    border: 4px solid #900FF5;
+    border-radius: 100%;
+    animation: c2 3s infinite;
+}
+.circle2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:600px;
+    height: 600px;
+    border: 4px solid #900FF5;
+    border-radius: 100%;
+    animation: c3 2.5s infinite;
+}
+
+
+@keyframes c1{
+    0%{
+        transform: scale(50%);
+    }
+    50%{
+        transform: scale(100%);
+    }
+    100%{
+        transform: scale(50%);
+    }
+}
+
+@keyframes c2{
+    0%{
+        transform: scale(50%);
+    }
+    50%{
+        transform: scale(100%);
+    }
+    100%{
+        transform: scale(50%);
+    }
+}
+
+@keyframes c3{
+    0%{
+        transform: scale(50%);
+    }
+    50%{
+        transform: scale(100%);
+    }
+    100%{
+        transform: scale(50%);
+    }
+}
+
+.textside{
+    position: absolute;
+    top: 35%;
+}
+
+
+.btn {
+    background-color: #f3f7fe;
+    color: #900FF5;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    transition: .3s;
+  }
+  
+  .btn:hover {
+    background-color: #900FF5;
+    box-shadow: 0 0 0 5px A646F1;
+    color: #fff;
+  }
+
+  .icon{
+    color: #900FF5;
+    width: 40px;
+    height: 40px;
+  }
+  .header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.i1{
+    width: 600px;
+    height: 600px;
+    right: 7%;
+    top: 20%;
+    position: absolute;
+    animation: p  4s infinite;
+}
+
+@keyframes p{
+    0%{
+        transform: translateY(20%);
+    }
+    50%{
+        transform: translateY(30%);
+    }
+    100%{
+        transform: translateY(20%);
+    }
+}
+.textside h1{
+    font-size: 2rem;
+}
+.textside p{
+    font-size: 2rem;
+}
+.textside .icon{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
